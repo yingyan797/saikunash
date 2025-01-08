@@ -1,0 +1,217 @@
+numeral expression
+0-15: uint, iks, its, ips, uks, uts, ups, aks, ats, aps, ish, iksh, ic, ipsh, uksh, uc
+16-19: ishups, ishaks, ishats, ishaps
+20, 21, 22, 23: itsish, itish-iks, itsish-its, itsish-ips
+30, 31, 32, 33: ipsish, ipsish-iks, ipsish-its, ipsish-ips
+100, 1000: ist, lish
+200, 300, 2000: its-ist, ips-ist, its lish
+10000, 100000: ish lish, ist lish
+million: lush
+billion: lash
+123456789: ist itsish-ips lush uks-ist utsish-ups lish aks-ist atsish-aps
+
+0. greeting
+hello: saiktam
+
+0. position, time, size, value
+in: ji
+enter: jidu
+out: ja
+exit: jadu
+east: jehe
+west: jeha
+north: jehi
+south: jeho
+left: jese
+right: jesa
+front/next/post-: tro
+back/previous/pre-: ne
+go/become: du
+currently: duz
+procede: trodu
+recede: nedu
+past/before: neduzo
+future/after: troduzo
+early: nef
+late: trof
+up/high/over: ash
+down/low/under: uish
+many/much/very: aksh
+add/increase: akshu
+multiply/copy: akshuf
+divide: uikshuf
+raised-to-the-power-of: akshue
+few: uiksh
+minus/reduce: uikshu
+fast/quick: sa
+accelerate: sidu
+slow: si
+decelerate: sadu
+near/short: sik
+far/long: sak
+deep: ast
+shallow: uist
+big: af
+small: uif
+live/stay/at: atam
+revert: nidu
+
+0. nature
+air: tri
+water: tru
+liquid: truza
+ice: itru
+freeze: itrudwk
+freezer: itrudun
+cold: itruza
+sun: oim
+day/today: oimj
+yesterday: noimj
+tomorrow: troimj
+fire: itoi
+ignite/burn: itoidu
+hot: itoiza
+cloud: doin
+cloudy: doinkak
+mountain: ashon
+mountaineous: ashonkak
+farm: ilam
+city: qlam
+urbanization: qlamdwk
+animal: geza
+plant: goza
+biology: gzapsom
+tree/wood: gozit
+meat: gezit
+stone: shon
+metal: xim
+glass: klim
+plastic: klw
+light/ray: oiz
+bright: oiza
+dark: oizik
+sky: ashat
+ground/earth: uishat
+geography: uishapsom
+geology: uishonsom
+
+0. people and pronoun
+I/me/my: ut
+we/our: utza
+you/your: suza
+he/she/it: tin
+they: tinza
+am/is/are: te
+yes/ok: do
+no/not/don't: pum
+this/these: ti
+that/those: ta
+what: tey
+which: tiy
+person: vte
+who: vtey
+how: tuny,
+place: tamji
+where: tamy
+why: teduny
+time: atem
+when: temy
+and/also/with: lin
+or: ling
+than/different: lit
+
+0. verb basic
+use: kar
+make: kap
+play: kat
+do: kal
+allow/permit: atkal
+forbid: putkal
+know: apq
+have: kaz
+can: kam 
+enable: atkam
+disable: putkam
+exist: ka
+talk/communicate: jad
+oral/spoken: jadz
+read: klen
+write: iklen
+exchange: ijad
+look: kem
+listen: keg
+smell: kesh
+taste: kest
+touch: kep
+pull: aji
+push: aja
+drive/pilot: klojbu
+copilot: lnklojbu
+change/transform: lidu
+think: atun
+identify: ikem
+
+0. noun basic
+oil: prwt
+car/vihecle: klombi
+school/education: apsom
+knowledge: apkam
+information: apkat
+electricity: stegtoi
+charged: stegtoika
+electrified: stegtoikr
+home/flat: ot
+building: qlep
+road/path: kloja
+network: aloja
+aircraft: trikash
+spaceship: klojash
+gate: ijadun
+door: ijar
+window: ijap
+support: ashduk
+suppress: uishduk
+floor/base/minimum: iuish
+ceiling/maximum: iash
+color: kempit
+sound: kegpit
+odor/fragrance: keshpit
+sensation: kepapit
+
+0. adjective basic
+empty: uin
+good: saik
+better: ak saik
+best: aki saik
+bad: sedum
+beautiful: saikin
+less beautiful: uik saikin
+least beautiful: uiki saikin
+happy: aplun
+sad: uiplun
+attractive: ataji
+repelling: ataja
+dirty/polluted: trwm
+clean/tidy/pure: isaik
+wet/waterful: trukak
+dry: trukik
+strict/tight: jinza
+loose: janza
+pain: stega
+sour: stegi
+spicy: stegat
+sweet: saigra
+bitter: stegot
+sharp: stegjim
+strong: stegji
+health: stegju
+weak: sedrum
+tired: sedrok
+boring: sedrop
+sick: sedrw
+angry: stegam
+hard: shonza
+transparent: kliza
+soft: klwza
+(something) make (people) feel cold: (something) at itruza plun
+(someone) feel cold: (someone) at itruza
