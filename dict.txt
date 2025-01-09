@@ -38,9 +38,10 @@ up/high/over: ash
 down/low/under: uish
 many/much/very: aksh
 add/increase: akshu
-multiply/copy: akshuf
-divide: uikshuf
+multiply/copy: akzu
+divide: uikzu
 raised-to-the-power-of: akshue
+take-the-root-of-power: uikshue
 few: uiksh
 minus/reduce: uikshu
 fast/quick: sa
@@ -65,6 +66,7 @@ freeze: itrudwk
 freezer: itrudun
 cold: itruza
 sun: oim
+planet: sholoja
 day/today: oimj
 yesterday: noimj
 tomorrow: troimj
@@ -76,13 +78,14 @@ cloudy: doinkak
 mountain: ashon
 mountaineous: ashonkak
 farm: ilam
-city: qlam
-urbanization: qlamdwk
+city: kulam
+urbanization: kulamdwk
 animal: geza
 plant: goza
 biology: gzapsom
-tree/wood: gozit
 meat: gezit
+tree/wood: gozit
+dirt/mud: shof
 stone: shon
 metal: xim
 glass: klim
@@ -91,9 +94,10 @@ light/ray: oiz
 bright: oiza
 dark: oizik
 sky: ashat
-ground/earth: uishat
-geography: uishapsom
-geology: uishonsom
+universe: ashwt
+astronomy: ashwpsom
+geography: shokepsom
+geology: shoapsom
 
 0. people and pronoun
 I/me/my: ut
@@ -101,6 +105,7 @@ we/our: utza
 you/your: suza
 he/she/it: tin
 they: tinza
+self: ite
 am/is/are: te
 yes/ok: do
 no/not/don't: pum
@@ -127,7 +132,8 @@ play: kat
 do: kal
 allow/permit: atkal
 forbid: putkal
-know: apq
+know: apku
+think: apkut
 have: kaz
 can: kam 
 enable: atkam
@@ -148,8 +154,10 @@ push: aja
 drive/pilot: klojbu
 copilot: lnklojbu
 change/transform: lidu
-think: atun
 identify: ikem
+cycle/loop/around: lojwt
+orbit/revolution: lojwten
+rotate/spin: lojuit
 
 0. noun basic
 oil: prwt
@@ -161,13 +169,15 @@ electricity: stegtoi
 charged: stegtoika
 electrified: stegtoikr
 home/flat: ot
-building: qlep
+building: kulep
 road/path: kloja
 network: aloja
 aircraft: trikash
 spaceship: klojash
 gate: ijadun
 door: ijar
+language: jazuf
+text: iklenuf
 window: ijap
 support: ashduk
 suppress: uishduk
@@ -180,15 +190,21 @@ sensation: kepapit
 
 0. adjective basic
 empty: uin
+single: ikza
+multiple: akza
 good: saik
 better: ak saik
 best: aki saik
 bad: sedum
 beautiful: saikin
+correct: doz
+incorrect: pumz
 less beautiful: uik saikin
 least beautiful: uiki saikin
-happy: aplun
-sad: uiplun
+simple/easy: zip
+difficult/complex: zwp
+happy: apon
+sad: uipon
 attractive: ataji
 repelling: ataja
 dirty/polluted: trwm
@@ -210,8 +226,10 @@ tired: sedrok
 boring: sedrop
 sick: sedrw
 angry: stegam
+soft: klwza
 hard: shonza
 transparent: kliza
-soft: klwza
-(something) make (people) feel cold: (something) at itruza plun
+(someone) feel (something) is cold: (someone) (something) at itruza plun
 (someone) feel cold: (someone) at itruza
+(someone) thinks (something) is bad: (someone) at (something) sedrw apkut
+
