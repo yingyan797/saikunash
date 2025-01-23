@@ -1,0 +1,56 @@
+<head>
+    <title> Saikunash learning</title>
+    <style>
+        .sec_head {
+            background-color: skyblue;
+            border-bottom: dashed;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .section {
+            border: skyblue dashed;
+            padding: 10px;
+        }
+        .clickable {
+            background-color: azure;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        th, td {
+            border: lightgreen solid;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="sec_head">Saikunash learning and translation tools</h2>
+    <table><tr>
+        <th colspan="2">Vocabulary</th>
+    </tr><tr>
+        <td id="sel_voc1" class="clickable" onclick="modesel('voc1')" style="background-color: lightgreen;">Eng->Skn</td>
+        <td id="sel_voc2" class="clickable" onclick="modesel('voc2')">Skn->Eng</td>
+    </tr></table>
+    <div id="func_voc1" class="section">
+         - Start typing English word: <input type="text" id="">
+    </div><div id="func_voc2" style="display: none;" class="section">
+         - Start typing Saikunash word: <input type="text" id="">
+    </div>
+    <script>
+        function hide_show(id) {
+            if (document.getElementById(id).style.display == 'none')
+                document.getElementById(id).style.display = "content";
+            else
+                document.getElementById(id).style.display = "none";
+        }
+        function modesel(id) {
+            document.querySelectorAll('[id^="func_"]').forEach((elem, i) => {
+                elem.style.display = "none";
+            })
+            document.querySelectorAll('[id^="sel_"]').forEach((elem, i) => {
+                elem.style.backgroundColor = "azure";
+            })
+            document.getElementById("func_"+id).style.display = "block";
+            document.getElementById("sel_"+id).style.backgroundColor = "lightgreen";  
+        }
+    </script>
+</body>
