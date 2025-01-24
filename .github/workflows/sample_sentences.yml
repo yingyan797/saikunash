@@ -1,0 +1,16 @@
+name: sample_sentences
+on:
+    workflow_dispatch:
+jobs:
+    show_sentences:
+        runs-on: ubuntu-latest
+        steps:
+        - name: checkout repository
+          uses: actions/checkout@v4
+
+        - name: write sentences
+          run: |
+            echo " -- Here are some sample sentences of Saikunash -- "
+            cat sentences.txt
+            
+      
