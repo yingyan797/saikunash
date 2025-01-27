@@ -233,3 +233,4 @@ transparent: kliza
 (someone) feel cold: (someone) at itruza
 (someone) thinks (something) is bad: (someone) at (something) sedrw apkut
 
+#eof
