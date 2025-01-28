@@ -1,6 +1,7 @@
 <head>
     <title> Saikunash learning</title>
     <script src="processor/dict.js"></script>
+    <script src="processor/util.js"></script>
     <style>
         .sec_head {
             background-color: skyblue;
@@ -32,9 +33,11 @@
         <td id="sel_voc2" class="clickable" onclick="modesel('voc2')">Skn->Eng</td>
     </tr></table>
     <div id="func_voc1" class="section">
-         - Start typing English word: <input type="text" id="">
+         - Start typing English word: <input type="text" id="i_eng">
+         <div id="words_skn"></div>
     </div><div id="func_voc2" style="display: none;" class="section">
-         - Start typing Saikunash word: <input type="text" id="">
+         - Start typing Saikunash word/phrase: <input type="text" id="i_skn" oninput="load_eng()">
+         <div id="words_eng"></div>
     </div>
     <script>
         function hide_show(id) {
@@ -52,6 +55,12 @@
             })
             document.getElementById("func_"+id).style.display = "block";
             document.getElementById("sel_"+id).style.backgroundColor = "lightgreen";  
+        }
+        function load_eng() {
+            let query = document.getElementById("i_skn").value;
+            if (query != "") {
+                document.getElementById("words_eng").innerHTML = search_skn(query);
+            }
         }
     </script>
 </body>
